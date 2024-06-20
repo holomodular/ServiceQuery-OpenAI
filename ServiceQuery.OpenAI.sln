@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceQuery.OpenAI", "src\V1\ServiceQuery.OpenAI\ServiceQuery.OpenAI.csproj", "{BD6D867C-84C0-433D-8A8E-642217A64F11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApp", "src\V1\TestConsoleApp\TestConsoleApp.csproj", "{132F468E-4A56-4789-8ED9-51E87B355126}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD6D867C-84C0-433D-8A8E-642217A64F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6D867C-84C0-433D-8A8E-642217A64F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6D867C-84C0-433D-8A8E-642217A64F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6D867C-84C0-433D-8A8E-642217A64F11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132F468E-4A56-4789-8ED9-51E87B355126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132F468E-4A56-4789-8ED9-51E87B355126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132F468E-4A56-4789-8ED9-51E87B355126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132F468E-4A56-4789-8ED9-51E87B355126}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93102C2A-2524-43E1-B9D4-6212BF47ACB6}
+	EndGlobalSection
+EndGlobal
